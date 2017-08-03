@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "es2015",
+    "outDir": "bundles/",
+    "preserveConstEnums": true,
+    "pretty": true,
+    "removeComments": false,
+    "rootDir": "src/",
+    "target": "ES2015",
+    "lib": [
+      "DOM",
+      "ES6",
+      "DOM.Iterable",
+      "ScriptHost",
+      "ES2015.Collection"
+    ],
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "listEmittedFiles": false,
+    "noImplicitAny": false,
+    "noImplicitReturns": false,
+    "noImplicitThis": false,
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "sourceMap": true,
+    "strictNullChecks": false
+  },
+  "exclude": [
+    "node_modules/",
+    "bundles/"
+  ],
+  "include": [
+    "src/"
+  ]
+}
